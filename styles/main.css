@@ -207,6 +207,13 @@ p {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .feature .feature-text {
+    padding: 0 0 70px 0;
+    width: 100%;
+  }
+}
+
 .product-list .inner-text {
   font-family: 'Montserrat';
   text-align: center;
@@ -278,6 +285,13 @@ p {
   }
 }
 
+@media screen and (max-width: 991px) {
+  .review .review-text {
+    padding: 0 0 0 0;
+    width: 100%;
+  }
+}
+
 .cta-2 .cta-inner h2 {
   color: #000;
   font-family: 'Montserrat';
@@ -294,6 +308,12 @@ p {
 
 .contact-us {
   font-family: 'Montserrat';
+}
+
+@media screen and (max-width: 991px) {
+  .contact-us p {
+    line-height: 25px;
+  }
 }
 
 @media screen and (max-width: 767px) {
